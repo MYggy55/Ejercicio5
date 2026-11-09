@@ -1,0 +1,427 @@
+UVG CARD BATTLE | HERENCIA Y MVC
+18 cartas aleatorias. Dos jugadores; 12 turnos en total.
+Una acción por turno: jugar, tomar una carta o pasar.
+
+1. Listar catálogo completo
+2. Buscar por ID
+3. Buscar por nombre
+4. Ordenar por energía
+5. Iniciar partida
+6. Ver mano actual
+7. Jugar carta
+8. Tomar carta
+9. Pasar turno
+10. Ver tablero y resultado
+11. Salir
+Opción: Entrada inválida: escribe un entero.
+Opción: ID 1 | Catedrático Matemática 1 | CartaCatedratico | Energía: 2 | Zona: MAZO | Asesoría y llamadas de atención. | Departamento: Matemática | Llamadas: 1 | Tiempo: 2
+ID 2 | Algoritmos 2 | CartaCurso | Energía: 1 | Zona: MAZO | Completa el curso y obtiene créditos. | Créditos: 3 | Dificultad: 3
+ID 3 | Feria de Clubes 3 | CartaEventoCampus | Energía: 2 | Zona: MAZO | El evento afecta a ambos jugadores. | Cambio de energía: 3 | Cambio de puntos: 1
+ID 4 | Catedrático Matemática 4 | CartaCatedratico | Energía: 1 | Zona: MAZO | Asesoría y llamadas de atención. | Departamento: Matemática | Llamadas: 2 | Tiempo: 1
+ID 5 | Cálculo 5 | CartaCurso | Energía: 1 | Zona: MAZO | Completa el curso y obtiene créditos. | Créditos: 2 | Dificultad: 4
+ID 6 | Feria de Clubes 6 | CartaEventoCampus | Energía: 2 | Zona: MAZO | El evento afecta a ambos jugadores. | Cambio de energía: 3 | Cambio de puntos: 1
+ID 7 | Catedrático Matemática 7 | CartaCatedratico | Energía: 1 | Zona: MAZO | Asesoría y llamadas de atención. | Departamento: Matemática | Llamadas: 3 | Tiempo: 1
+ID 8 | Cálculo 8 | CartaCurso | Energía: 4 | Zona: MAZO | Completa el curso y obtiene créditos. | Créditos: 3 | Dificultad: 5
+ID 9 | Semana de Parciales 9 | CartaEventoCampus | Energía: 1 | Zona: MAZO | El evento afecta a ambos jugadores. | Cambio de energía: -2 | Cambio de puntos: -1
+ID 10 | Catedrático Computación 10 | CartaCatedratico | Energía: 4 | Zona: MAZO | Asesoría y llamadas de atención. | Departamento: Computación | Llamadas: 3 | Tiempo: 1
+ID 11 | Estadística 11 | CartaCurso | Energía: 2 | Zona: MAZO | Completa el curso y obtiene créditos. | Créditos: 3 | Dificultad: 5
+ID 12 | Feria de Clubes 12 | CartaEventoCampus | Energía: 1 | Zona: MAZO | El evento afecta a ambos jugadores. | Cambio de energía: 3 | Cambio de puntos: 1
+ID 13 | Catedrático Matemática 13 | CartaCatedratico | Energía: 3 | Zona: MAZO | Asesoría y llamadas de atención. | Departamento: Matemática | Llamadas: 1 | Tiempo: 3
+ID 14 | Algoritmos 14 | CartaCurso | Energía: 1 | Zona: MAZO | Completa el curso y obtiene créditos. | Créditos: 5 | Dificultad: 3
+ID 15 | Feria de Clubes 15 | CartaEventoCampus | Energía: 4 | Zona: MAZO | El evento afecta a ambos jugadores. | Cambio de energía: 3 | Cambio de puntos: 1
+ID 16 | Catedrático Física 16 | CartaCatedratico | Energía: 1 | Zona: MAZO | Asesoría y llamadas de atención. | Departamento: Física | Llamadas: 3 | Tiempo: 1
+ID 17 | Estadística 17 | CartaCurso | Energía: 4 | Zona: MAZO | Completa el curso y obtiene créditos. | Créditos: 4 | Dificultad: 2
+ID 18 | Feria de Clubes 18 | CartaEventoCampus | Energía: 3 | Zona: MAZO | El evento afecta a ambos jugadores. | Cambio de energía: 3 | Cambio de puntos: 1
+
+
+1. Listar catálogo completo
+2. Buscar por ID
+3. Buscar por nombre
+4. Ordenar por energía
+5. Iniciar partida
+6. Ver mano actual
+7. Jugar carta
+8. Tomar carta
+9. Pasar turno
+10. Ver tablero y resultado
+11. Salir
+Opción: ID: ID 1 | Catedrático Matemática 1 | CartaCatedratico | Energía: 2 | Zona: MAZO | Asesoría y llamadas de atención. | Departamento: Matemática | Llamadas: 1 | Tiempo: 2
+
+1. Listar catálogo completo
+2. Buscar por ID
+3. Buscar por nombre
+4. Ordenar por energía
+5. Iniciar partida
+6. Ver mano actual
+7. Jugar carta
+8. Tomar carta
+9. Pasar turno
+10. Ver tablero y resultado
+11. Salir
+Opción: Nombre exacto: Acción rechazada: No existe una carta con ese nombre.
+
+1. Listar catálogo completo
+2. Buscar por ID
+3. Buscar por nombre
+4. Ordenar por energía
+5. Iniciar partida
+6. Ver mano actual
+7. Jugar carta
+8. Tomar carta
+9. Pasar turno
+10. Ver tablero y resultado
+11. Salir
+Opción: Catálogo ordenado por energía ascendente:
+ID 2 | Algoritmos 2 | CartaCurso | Energía: 1 | Zona: MAZO | Completa el curso y obtiene créditos. | Créditos: 3 | Dificultad: 3
+ID 4 | Catedrático Matemática 4 | CartaCatedratico | Energía: 1 | Zona: MAZO | Asesoría y llamadas de atención. | Departamento: Matemática | Llamadas: 2 | Tiempo: 1
+ID 5 | Cálculo 5 | CartaCurso | Energía: 1 | Zona: MAZO | Completa el curso y obtiene créditos. | Créditos: 2 | Dificultad: 4
+ID 7 | Catedrático Matemática 7 | CartaCatedratico | Energía: 1 | Zona: MAZO | Asesoría y llamadas de atención. | Departamento: Matemática | Llamadas: 3 | Tiempo: 1
+ID 9 | Semana de Parciales 9 | CartaEventoCampus | Energía: 1 | Zona: MAZO | El evento afecta a ambos jugadores. | Cambio de energía: -2 | Cambio de puntos: -1
+ID 12 | Feria de Clubes 12 | CartaEventoCampus | Energía: 1 | Zona: MAZO | El evento afecta a ambos jugadores. | Cambio de energía: 3 | Cambio de puntos: 1
+ID 14 | Algoritmos 14 | CartaCurso | Energía: 1 | Zona: MAZO | Completa el curso y obtiene créditos. | Créditos: 5 | Dificultad: 3
+ID 16 | Catedrático Física 16 | CartaCatedratico | Energía: 1 | Zona: MAZO | Asesoría y llamadas de atención. | Departamento: Física | Llamadas: 3 | Tiempo: 1
+ID 1 | Catedrático Matemática 1 | CartaCatedratico | Energía: 2 | Zona: MAZO | Asesoría y llamadas de atención. | Departamento: Matemática | Llamadas: 1 | Tiempo: 2
+ID 3 | Feria de Clubes 3 | CartaEventoCampus | Energía: 2 | Zona: MAZO | El evento afecta a ambos jugadores. | Cambio de energía: 3 | Cambio de puntos: 1
+ID 6 | Feria de Clubes 6 | CartaEventoCampus | Energía: 2 | Zona: MAZO | El evento afecta a ambos jugadores. | Cambio de energía: 3 | Cambio de puntos: 1
+ID 11 | Estadística 11 | CartaCurso | Energía: 2 | Zona: MAZO | Completa el curso y obtiene créditos. | Créditos: 3 | Dificultad: 5
+ID 13 | Catedrático Matemática 13 | CartaCatedratico | Energía: 3 | Zona: MAZO | Asesoría y llamadas de atención. | Departamento: Matemática | Llamadas: 1 | Tiempo: 3
+ID 18 | Feria de Clubes 18 | CartaEventoCampus | Energía: 3 | Zona: MAZO | El evento afecta a ambos jugadores. | Cambio de energía: 3 | Cambio de puntos: 1
+ID 8 | Cálculo 8 | CartaCurso | Energía: 4 | Zona: MAZO | Completa el curso y obtiene créditos. | Créditos: 3 | Dificultad: 5
+ID 10 | Catedrático Computación 10 | CartaCatedratico | Energía: 4 | Zona: MAZO | Asesoría y llamadas de atención. | Departamento: Computación | Llamadas: 3 | Tiempo: 1
+ID 15 | Feria de Clubes 15 | CartaEventoCampus | Energía: 4 | Zona: MAZO | El evento afecta a ambos jugadores. | Cambio de energía: 3 | Cambio de puntos: 1
+ID 17 | Estadística 17 | CartaCurso | Energía: 4 | Zona: MAZO | Completa el curso y obtiene créditos. | Créditos: 4 | Dificultad: 2
+
+
+1. Listar catálogo completo
+2. Buscar por ID
+3. Buscar por nombre
+4. Ordenar por energía
+5. Iniciar partida
+6. Ver mano actual
+7. Jugar carta
+8. Tomar carta
+9. Pasar turno
+10. Ver tablero y resultado
+11. Salir
+Opción: ID de tu carta: Acción rechazada: Debes iniciar una partida.
+
+1. Listar catálogo completo
+2. Buscar por ID
+3. Buscar por nombre
+4. Ordenar por energía
+5. Iniciar partida
+6. Ver mano actual
+7. Jugar carta
+8. Tomar carta
+9. Pasar turno
+10. Ver tablero y resultado
+11. Salir
+Opción: Jugador 1: Jugador 2: Acción rechazada: Usa nombres distintos.
+
+1. Listar catálogo completo
+2. Buscar por ID
+3. Buscar por nombre
+4. Ordenar por energía
+5. Iniciar partida
+6. Ver mano actual
+7. Jugar carta
+8. Tomar carta
+9. Pasar turno
+10. Ver tablero y resultado
+11. Salir
+Opción: Jugador 1: Jugador 2: Partida iniciada. Tres cartas por jugador.
+Ana | Energía: 5 | Puntos: 0
+Luis | Energía: 5 | Puntos: 0
+Acciones realizadas: 0/12 | Mazo: 12 | Descarte: 0
+Turno de: Ana
+
+1. Listar catálogo completo
+2. Buscar por ID
+3. Buscar por nombre
+4. Ordenar por energía
+5. Iniciar partida
+6. Ver mano actual
+7. Jugar carta
+8. Tomar carta
+9. Pasar turno
+10. Ver tablero y resultado
+11. Salir
+Opción: ID 2 | Algoritmos 2 | CartaCurso | Energía: 1 | Zona: JUGADOR1 | Completa el curso y obtiene créditos. | Créditos: 3 | Dificultad: 3
+ID 12 | Feria de Clubes 12 | CartaEventoCampus | Energía: 1 | Zona: JUGADOR1 | El evento afecta a ambos jugadores. | Cambio de energía: 3 | Cambio de puntos: 1
+ID 11 | Estadística 11 | CartaCurso | Energía: 2 | Zona: JUGADOR1 | Completa el curso y obtiene créditos. | Créditos: 3 | Dificultad: 5
+
+
+1. Listar catálogo completo
+2. Buscar por ID
+3. Buscar por nombre
+4. Ordenar por energía
+5. Iniciar partida
+6. Ver mano actual
+7. Jugar carta
+8. Tomar carta
+9. Pasar turno
+10. Ver tablero y resultado
+11. Salir
+Opción: Carta tomada: Catedrático Matemática 13 (ID 13).
+Ana | Energía: 5 | Puntos: 0
+Luis | Energía: 5 | Puntos: 0
+Acciones realizadas: 1/12 | Mazo: 11 | Descarte: 0
+Turno de: Luis
+
+1. Listar catálogo completo
+2. Buscar por ID
+3. Buscar por nombre
+4. Ordenar por energía
+5. Iniciar partida
+6. Ver mano actual
+7. Jugar carta
+8. Tomar carta
+9. Pasar turno
+10. Ver tablero y resultado
+11. Salir
+Opción: Turno pasado.
+Ana | Energía: 7 | Puntos: 0
+Luis | Energía: 5 | Puntos: 0
+Acciones realizadas: 2/12 | Mazo: 11 | Descarte: 0
+Turno de: Ana
+
+1. Listar catálogo completo
+2. Buscar por ID
+3. Buscar por nombre
+4. Ordenar por energía
+5. Iniciar partida
+6. Ver mano actual
+7. Jugar carta
+8. Tomar carta
+9. Pasar turno
+10. Ver tablero y resultado
+11. Salir
+Opción: Ana | Energía: 7 | Puntos: 0
+Luis | Energía: 5 | Puntos: 0
+Acciones realizadas: 2/12 | Mazo: 11 | Descarte: 0
+Turno de: Ana
+
+1. Listar catálogo completo
+2. Buscar por ID
+3. Buscar por nombre
+4. Ordenar por energía
+5. Iniciar partida
+6. Ver mano actual
+7. Jugar carta
+8. Tomar carta
+9. Pasar turno
+10. Ver tablero y resultado
+11. Salir
+Opción: ID: Acción rechazada: No existe una carta con ese ID.
+
+1. Listar catálogo completo
+2. Buscar por ID
+3. Buscar por nombre
+4. Ordenar por energía
+5. Iniciar partida
+6. Ver mano actual
+7. Jugar carta
+8. Tomar carta
+9. Pasar turno
+10. Ver tablero y resultado
+11. Salir
+Opción: Turno pasado.
+Ana | Energía: 7 | Puntos: 0
+Luis | Energía: 7 | Puntos: 0
+Acciones realizadas: 3/12 | Mazo: 11 | Descarte: 0
+Turno de: Luis
+
+1. Listar catálogo completo
+2. Buscar por ID
+3. Buscar por nombre
+4. Ordenar por energía
+5. Iniciar partida
+6. Ver mano actual
+7. Jugar carta
+8. Tomar carta
+9. Pasar turno
+10. Ver tablero y resultado
+11. Salir
+Opción: Turno pasado.
+Ana | Energía: 9 | Puntos: 0
+Luis | Energía: 7 | Puntos: 0
+Acciones realizadas: 4/12 | Mazo: 11 | Descarte: 0
+Turno de: Ana
+
+1. Listar catálogo completo
+2. Buscar por ID
+3. Buscar por nombre
+4. Ordenar por energía
+5. Iniciar partida
+6. Ver mano actual
+7. Jugar carta
+8. Tomar carta
+9. Pasar turno
+10. Ver tablero y resultado
+11. Salir
+Opción: Turno pasado.
+Ana | Energía: 9 | Puntos: 0
+Luis | Energía: 9 | Puntos: 0
+Acciones realizadas: 5/12 | Mazo: 11 | Descarte: 0
+Turno de: Luis
+
+1. Listar catálogo completo
+2. Buscar por ID
+3. Buscar por nombre
+4. Ordenar por energía
+5. Iniciar partida
+6. Ver mano actual
+7. Jugar carta
+8. Tomar carta
+9. Pasar turno
+10. Ver tablero y resultado
+11. Salir
+Opción: Turno pasado.
+Ana | Energía: 11 | Puntos: 0
+Luis | Energía: 9 | Puntos: 0
+Acciones realizadas: 6/12 | Mazo: 11 | Descarte: 0
+Turno de: Ana
+
+1. Listar catálogo completo
+2. Buscar por ID
+3. Buscar por nombre
+4. Ordenar por energía
+5. Iniciar partida
+6. Ver mano actual
+7. Jugar carta
+8. Tomar carta
+9. Pasar turno
+10. Ver tablero y resultado
+11. Salir
+Opción: Turno pasado.
+Ana | Energía: 11 | Puntos: 0
+Luis | Energía: 11 | Puntos: 0
+Acciones realizadas: 7/12 | Mazo: 11 | Descarte: 0
+Turno de: Luis
+
+1. Listar catálogo completo
+2. Buscar por ID
+3. Buscar por nombre
+4. Ordenar por energía
+5. Iniciar partida
+6. Ver mano actual
+7. Jugar carta
+8. Tomar carta
+9. Pasar turno
+10. Ver tablero y resultado
+11. Salir
+Opción: Turno pasado.
+Ana | Energía: 13 | Puntos: 0
+Luis | Energía: 11 | Puntos: 0
+Acciones realizadas: 8/12 | Mazo: 11 | Descarte: 0
+Turno de: Ana
+
+1. Listar catálogo completo
+2. Buscar por ID
+3. Buscar por nombre
+4. Ordenar por energía
+5. Iniciar partida
+6. Ver mano actual
+7. Jugar carta
+8. Tomar carta
+9. Pasar turno
+10. Ver tablero y resultado
+11. Salir
+Opción: Turno pasado.
+Ana | Energía: 13 | Puntos: 0
+Luis | Energía: 13 | Puntos: 0
+Acciones realizadas: 9/12 | Mazo: 11 | Descarte: 0
+Turno de: Luis
+
+1. Listar catálogo completo
+2. Buscar por ID
+3. Buscar por nombre
+4. Ordenar por energía
+5. Iniciar partida
+6. Ver mano actual
+7. Jugar carta
+8. Tomar carta
+9. Pasar turno
+10. Ver tablero y resultado
+11. Salir
+Opción: Turno pasado.
+Ana | Energía: 15 | Puntos: 0
+Luis | Energía: 13 | Puntos: 0
+Acciones realizadas: 10/12 | Mazo: 11 | Descarte: 0
+Turno de: Ana
+
+1. Listar catálogo completo
+2. Buscar por ID
+3. Buscar por nombre
+4. Ordenar por energía
+5. Iniciar partida
+6. Ver mano actual
+7. Jugar carta
+8. Tomar carta
+9. Pasar turno
+10. Ver tablero y resultado
+11. Salir
+Opción: Turno pasado.
+Ana | Energía: 15 | Puntos: 0
+Luis | Energía: 15 | Puntos: 0
+Acciones realizadas: 11/12 | Mazo: 11 | Descarte: 0
+Turno de: Luis
+
+1. Listar catálogo completo
+2. Buscar por ID
+3. Buscar por nombre
+4. Ordenar por energía
+5. Iniciar partida
+6. Ver mano actual
+7. Jugar carta
+8. Tomar carta
+9. Pasar turno
+10. Ver tablero y resultado
+11. Salir
+Opción: Turno pasado.
+Ana | Energía: 15 | Puntos: 0
+Luis | Energía: 15 | Puntos: 0
+Acciones realizadas: 12/12 | Mazo: 11 | Descarte: 0
+FIN DE PARTIDA. Empate.
+
+1. Listar catálogo completo
+2. Buscar por ID
+3. Buscar por nombre
+4. Ordenar por energía
+5. Iniciar partida
+6. Ver mano actual
+7. Jugar carta
+8. Tomar carta
+9. Pasar turno
+10. Ver tablero y resultado
+11. Salir
+Opción: Ana | Energía: 15 | Puntos: 0
+Luis | Energía: 15 | Puntos: 0
+Acciones realizadas: 12/12 | Mazo: 11 | Descarte: 0
+FIN DE PARTIDA. Empate.
+
+1. Listar catálogo completo
+2. Buscar por ID
+3. Buscar por nombre
+4. Ordenar por energía
+5. Iniciar partida
+6. Ver mano actual
+7. Jugar carta
+8. Tomar carta
+9. Pasar turno
+10. Ver tablero y resultado
+11. Salir
+Opción: Acción rechazada: La partida ya terminó.
+
+1. Listar catálogo completo
+2. Buscar por ID
+3. Buscar por nombre
+4. Ordenar por energía
+5. Iniciar partida
+6. Ver mano actual
+7. Jugar carta
+8. Tomar carta
+9. Pasar turno
+10. Ver tablero y resultado
+11. Salir
+Opción: Programa finalizado.

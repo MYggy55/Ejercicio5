@@ -1,0 +1,65 @@
+OK | Carga inicial aleatoria | esperado=18 | obtenido=18
+OK | Catedráticos iniciales | esperado=6 | obtenido=6
+OK | Cursos iniciales | esperado=6 | obtenido=6
+OK | Eventos iniciales | esperado=6 | obtenido=6
+OK | Todas comienzan en mazo | esperado=18 | obtenido=18
+OK | Búsqueda por ID | esperado=1 | obtenido=1
+OK | Búsqueda por nombre | esperado=1 | obtenido=1
+OK | Orden ascendente por costo e ID | esperado=true | obtenido=true
+OK | No jugar sin iniciar | esperado=IllegalStateException | obtenido=IllegalStateException
+OK | No pasar sin iniciar | esperado=IllegalStateException | obtenido=IllegalStateException
+OK | No robar sin iniciar | esperado=IllegalStateException | obtenido=IllegalStateException
+OK | Mano inicial 1 | esperado=3 | obtenido=3
+OK | Mano inicial 2 | esperado=3 | obtenido=3
+OK | Mazo tras reparto | esperado=12 | obtenido=12
+OK | Energía inicial | esperado=5 | obtenido=5
+OK | Reinicio rechazado | esperado=IllegalStateException | obtenido=IllegalStateException
+OK | Carta de mano rival | esperado=IllegalStateException | obtenido=IllegalStateException
+OK | Rechazo conserva turno | esperado=0 | obtenido=0
+OK | Rechazo conserva energía | esperado=5 | obtenido=5
+OK | Tomar agrega a mano actual | esperado=4 | obtenido=4
+OK | Tomar reduce mazo | esperado=11 | obtenido=11
+OK | Tomar termina turno | esperado=1 | obtenido=1
+OK | Primer turno del segundo sin ventaja extra | esperado=5 | obtenido=5
+OK | Pasar termina turno | esperado=0 | obtenido=0
+OK | Recuperación en segundo turno propio | esperado=7 | obtenido=7
+OK | Energía insuficiente | esperado=IllegalArgumentException | obtenido=IllegalArgumentException
+OK | Insuficiente conserva energía | esperado=5 | obtenido=5
+OK | Insuficiente conserva mano | esperado=JUGADOR1 | obtenido=JUGADOR1
+OK | Insuficiente conserva turno | esperado=0 | obtenido=0
+OK | Mazo vacío | esperado=IllegalStateException | obtenido=IllegalStateException
+OK | Robo fallido conserva turno | esperado=0 | obtenido=0
+OK | Pago y recuperación de curso | esperado=5 | obtenido=5
+OK | Curso otorga créditos como puntos | esperado=4 | obtenido=4
+OK | Carta pasa a descarte | esperado=DESCARTE | obtenido=DESCARTE
+OK | Jugar termina turno | esperado=1 | obtenido=1
+OK | No reutilizar carta | esperado=IllegalStateException | obtenido=IllegalStateException
+OK | Reuso fallido conserva turnos | esperado=1 | obtenido=1
+OK | Partida finaliza a doce acciones | esperado=12 | obtenido=12
+OK | Ganador por puntuación | esperado=Ganador: Ana | obtenido=Ganador: Ana
+OK | No pasar después del final | esperado=IllegalStateException | obtenido=IllegalStateException
+OK | No robar después del final | esperado=IllegalStateException | obtenido=IllegalStateException
+OK | Resultado empatado | esperado=Empate. | obtenido=Empate.
+OK | Catedrático recupera energía | esperado=7 | obtenido=7
+OK | Catedrático resta energía rival | esperado=2 | obtenido=2
+OK | Catedrático otorga un punto | esperado=1 | obtenido=1
+OK | Evento afecta energía propia | esperado=4 | obtenido=4
+OK | Energía mínima cero | esperado=0 | obtenido=0
+OK | Evento afecta puntos | esperado=0 | obtenido=0
+OK | Evento positivo en rival | esperado=3 | obtenido=3
+OK | Evento positivo da puntos | esperado=1 | obtenido=1
+OK | Tope de energía | esperado=20 | obtenido=20
+OK | Puntos no negativos | esperado=0 | obtenido=0
+OK | ID repetido | esperado=IllegalArgumentException | obtenido=IllegalArgumentException
+OK | Rechazo conserva catálogo | esperado=6 | obtenido=6
+OK | Nombre repetido | esperado=IllegalArgumentException | obtenido=IllegalArgumentException
+OK | Nombre vacío | esperado=IllegalArgumentException | obtenido=IllegalArgumentException
+OK | Costo negativo | esperado=IllegalArgumentException | obtenido=IllegalArgumentException
+OK | Créditos cero | esperado=IllegalArgumentException | obtenido=IllegalArgumentException
+OK | ID inexistente | esperado=IllegalArgumentException | obtenido=IllegalArgumentException
+OK | Nombres iguales | esperado=IllegalArgumentException | obtenido=IllegalArgumentException
+OK | Inicio fallido conserva zonas | esperado=6 | obtenido=6
+OK | Sobrecarga de listado | esperado=true | obtenido=true
+OK | Controlador busca por nombre | esperado=true | obtenido=true
+Total de verificaciones: 63
+Todas las pruebas pasaron.
